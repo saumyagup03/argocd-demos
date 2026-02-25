@@ -7,6 +7,9 @@ resources:
   - deployment.yml
   - service.yml
   - secret.yml
+images:
+  - name: saumyagupta03/chai-devops
+    newTag: v1.0.0
 
 # (optional) you can put commonLabels or namespace here if you want
 # commonLabels:
